@@ -1,0 +1,59 @@
+.green-bg {
+    background: #6cbb23;
+}
+
+.gray-bg {
+    background: #f9f9f9;
+}
+
+.title-heading {
+    margin-bottom: 60px;
+}
+
+.typo-brand {
+    font-weight: 600;
+    border-bottom: 2px solid #777;
+    padding: 0px 7px 0 7px;
+}
+
+.wrap-cta h2, 
+.wrap-cta h3,
+.wrap-cta h4 {
+    color: #fff;
+}
+
+.wrap-cta blockquote {
+    font-style: italic;
+}
+
+.wrap-cta blockquote::before {
+    content: "“";
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 15em;
+    font-style: italic;
+    position: absolute;
+    top: 60px;
+    left: 120px;
+}
+
+.about-area .contract {
+    padding: 60px 0 0 0;
+}
+
+.about-area .contract-address {
+    margin: 30px 0 10px 0;
+}
+
+.about-area .rate {
+    font-weight: 600;
+    font-size: 1.2em;
+    color: #222;
+}
+
+.about-area button {
+    margin-bottom: 20px;
+}
+
+.activity-area {
+    padding-top: 100px;
+}
