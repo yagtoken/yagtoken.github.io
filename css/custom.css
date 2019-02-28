@@ -16,24 +16,40 @@
     padding: 0px 7px 0 7px;
 }
 
+.content-banner {
+    margin-top: 70px;
+}
+
 .wrap-cta h2, 
 .wrap-cta h3,
-.wrap-cta h4 {
+.wrap-cta h4,
+.wrap-cta p {
     color: #fff;
 }
 
 .wrap-cta blockquote {
     font-style: italic;
+    margin-bottom: 0;
+}
+
+.wrap-cta blockquote h2 {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+.wrap-cta blockquote p {
+    font-size: 1.2em;
+    margin-bottom: 0;
 }
 
 .wrap-cta blockquote::before {
     content: "“";
-    color: rgba(255, 255, 255, 0.8);
-    font-size: 15em;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 12em;
     font-style: italic;
     position: absolute;
     top: 60px;
-    left: 120px;
+    left: 0px;
 }
 
 .about-area .contract {
@@ -41,8 +57,10 @@
 }
 
 .about-area .contract-address {
-    font-size: 1em;
-    margin: 30px 0 10px 0;
+    font-size: 1.5em;
+    margin: 30px 0 20px 0;
+    width: 100%;
+    overflow-x: scroll;
 }
 
 .about-area .rate {
@@ -56,15 +74,44 @@
 }
 
 .activity-area {
-    padding-top: 100px;
+    padding-top: 40px;
 }
 
 #token-txs-10 {
     background: #333;
 }
 
+footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+footer .social {
+    font-size: 1.8em;
+}
+
+.story-content p {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.story-content h2 {
+    text-align: left;
+}
+
 @media (min-width: 992px) {
     .about-area .contract-address {
         font-size: 2em;
+    }
+
+    .wrap-cta blockquote::before {
+        content: "“";
+        color: rgba(255, 255, 255, 0.8);
+        font-size: 15em;
+        font-style: italic;
+        position: absolute;
+        top: 60px;
+        left: 180px;
     }
 }
