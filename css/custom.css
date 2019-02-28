@@ -41,6 +41,7 @@
 }
 
 .about-area .contract-address {
+    font-size: 1em;
     margin: 30px 0 10px 0;
 }
 
@@ -60,4 +61,10 @@
 
 #token-txs-10 {
     background: #333;
+}
+
+@media (min-width: 992px) {
+    .about-area .contract-address {
+        font-size: 2em;
+    }
 }
